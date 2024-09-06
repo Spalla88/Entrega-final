@@ -11,3 +11,31 @@
     </nav>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Acerca de mí</title>
+    <style>
+        .content {
+            display: flex;
+            align-items: center; /* Centra la imagen y el texto verticalmente */
+        }
+        .content img {
+            margin-right: 20px; /* Espacio entre la imagen y el texto */
+            width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <h1>Acerca de mí</h1>
+    <div class="content">
+        <img src="ruta_de_tu_imagen.jpg" alt="Descripción de la imagen">
+        <p>Me llamo Agustín Spalla, tengo 35 años y vivo en la localidad de La Calera, Córdoba. Trabajo en una concesionaria de John Deere. Estoy haciendo mi segundo curso en Coderhouse, el primer curso fue de Data Analyst.</p>
+    </div>
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+    </nav>
+</body>
+</html>
